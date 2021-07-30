@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0px;
+}
+
+header{
+    padding: 40px;
+    text-align: center;
+    background: rgb(70, 92, 167);
+    color: rgb(252, 250, 255);
+    
+}
+header h1{
+    font-size: 5em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    margin: 1px 0px 1px 0px;
+}
+
+nav{
+    display: flex;
+    background-color: #333;
+    
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+section {
+    text-align: center;
+    padding-top: 10px;
+    height: 100vh;
+}
+section:nth-child(odd){
+    background-color: rgb(200, 214, 241);
+}
+section:nth-child(even){
+    background-color: rgb(228, 205, 241);
+}
+
+
+section img{
+    width: 24%;
+    height: 40vh;
+    padding : 5px 20px;
+    border-radius: 10%;
+    
+   
+}
+h2{
+    padding-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    background-color: #333;
+}
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+    text-align: center;
+}
+.copyright{
+    float: right;
+}
+
+section h2{
+    font-size: 35px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.menu-btn:hover{
+    background-color: white;
+    color:black;
+}
+section h2 span{
+    background: grey;
+    padding : 10px 10px;
+    border-radius: 20px;
+}
+
+section h2:hover{
+    background: rgb(228, 205, 241);
+}
+
+
+
+
+
+.profile{
+    border-radius: 50%;
+}
+.name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    margin: 20px 0px 30px 0px;
+
+}
+
+.handle a{
+    background-color:rgb(189, 191, 207);
+    padding : 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+.handle a:hover{
+    background-color: rgb(202, 50, 50);
+}
+
+header h1:hover{
+    background-color: rgb(60, 13, 190);
+}
+p1{
+    font-size: 1.5em;
+    word-spacing:  5px;
+}
+
+.hos {
+    height: 10vh;
+}
+
+.hostel{
+    height: 60vh;
+}
+
+.vid video{
+    width: 30%;
+    height: 40vh;
+    margin: 10px 10px 10px 10px;
+}
+
+@media screen and (max-width: 700px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
