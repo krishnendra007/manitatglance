@@ -38,6 +38,7 @@ section {
     text-align: center;
     padding-top: 10px;
     height: 100vh;
+    flex-wrap: wrap;
 }
 section:nth-child(odd){
     background-color: rgb(200, 214, 241);
@@ -52,6 +53,7 @@ section img{
     height: 40vh;
     padding : 5px 20px;
     border-radius: 10%;
+    
     
    
 }
@@ -140,10 +142,15 @@ p1{
 }
 
 .vid video{
+   
     width: 30%;
     height: 40vh;
     margin: 10px 10px 10px 10px;
+    
 }
+
+
+
 
 @media screen and (max-width: 700px) {
     nav{
@@ -154,8 +161,12 @@ p1{
         flex-direction: column;
         padding: 10px 0px;
     }
-    
+   
     .vid video {
         height: 25vh;
     }
+    
+    
+    
+    
 }
