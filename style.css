@@ -154,4 +154,8 @@ p1{
         flex-direction: column;
         padding: 10px 0px;
     }
+    
+    .vid video {
+        height: 25vh;
+    }
 }
