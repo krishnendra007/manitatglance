@@ -172,9 +172,18 @@ p1{
         margin: 20px 0px 30px 0px;
 }
 
+.returnhome{
+    margin: 50% ;
+    font-size: 30px;
+    background-color: blue;
+    color: cornsilk;
+}
 
 
-@media screen and (max-width: 500px) {
+
+
+
+@media screen and (max-width: 700px) {
     nav{
         flex-direction: column;
         padding: 10px 0px;
@@ -236,12 +245,7 @@ p1{
         background-color: rgb(200, 214, 241);
     }
 
-    section:nth-child(odd){
-        background-color: rgb(200, 214, 241);
-    }
-    section:nth-child(even){
-        background-color: rgb(228, 205, 241);
-    }
+  
  
     
 }
