@@ -185,7 +185,7 @@ p1{
     }
    
     .vid video {
-        height: 25vh;
+        height: 17vh;
         width: 33%;
     }
     
@@ -210,7 +210,38 @@ p1{
         width: 50%;
         height: 30vh;
     }
-   
-    
+
+    .takeof{
+        width: 40%;
+        height: 20vh;
+        border-radius: 30%;
+    }
+
+    section {
+        text-align: center;
+        padding-top: 10px;
+        height: 70vh;
+        flex-wrap: wrap;
+    }
+    .end{
+        height: 80vh;
+        background-color: rgb(200, 214, 241);
+    }
+
+    .hostel{
+        height: 52vh;
+    }
+    .container{
+        height: 93vh;
+        background-color: rgb(200, 214, 241);
+    }
+
+    section:nth-child(odd){
+        background-color: rgb(200, 214, 241);
+    }
+    section:nth-child(even){
+        background-color: rgb(228, 205, 241);
+    }
+ 
     
 }
